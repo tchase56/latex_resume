@@ -1,0 +1,110 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{setspace}
+
+% Set applicant's personal data for header
+\name{Tyler Chase}
+\address{1 Daniel Burnham Ct. \linebreak Unit 805 \linebreak San Francisco CA 94109 \linebreak (209) 587-3167}
+\contacts{tylerchase56@gmail.com \linebreak linkedin.com/in/tchase56 \linebreak github.com/tchase56 \linebreak medium.com/@tchase56}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+	
+		\begin{cvsubsection}{Senior Data Scientist}{Fortune Brands Innovations}{July 2023-Present}	
+		         \vspace{1mm}		
+			\begin{itemize}
+                           \vspace{-1mm}		
+				\item \textbf{LLM Tariff Analysis} (2025). Wrote LLM pipeline in LangGraph to pull materials from 25000 technical documents to verify appropriate tariffs are being applied saving millions of dollars (Python/LangGraph)
+				\item \textbf{Demand Forecasting} (2024). Maintain and productionalize time series forecasting product for multiple businesses in the portfolio (Python/SQL/Flyte)
+
+			\end{itemize}
+		\end{cvsubsection}
+	
+		\begin{cvsubsection}{Principal Data Scientist}{Noodle.ai}{July 2018-April 2023}	
+		         \vspace{1mm}		
+			\centerline{\it Growth stage company building enterprise scale AI native SaaS applications in supply chain}
+			\begin{itemize}
+                           \vspace{-1mm}		
+				\item Develop and deploy enterprise artificial intelligence applications for the supply chain using time series data
+				\item \textbf{Managing Demand Prediction Deployment} (2022). Managed engineers and data scientists on configuration of demand tool across 2 countries for enterprise scale company and presented results to customer (Python/SQL)
+				\item \textbf{Raw Material Inventory Management POC} (2022). Wrote proof of concept for raw material inventory management tool for an enterprise scale cosmetics company using time series and machine learning methods. Resulting in an average lift of 18 percentage points over customer baseline. (Python/SQL)
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Machine Learning Engineer}{Allocate.ai}{June 2017-December 2017}
+		         \vspace{1mm}		
+			\centerline{\it Seed stage company automating time sheets through computer activity monitoring}		
+			\begin{itemize}
+			\vspace{-1mm}		
+				\item \textbf{Computer Activity Filter} (2017).  Used custom GloVe word embeddings and LSTM neural network to determine activities to filter in the timesheet application, resulting in 88.4\% precision. (Python/TensorFlow)
+			\end{itemize}
+		\end{cvsubsection}
+	
+	\end{cvsection}			
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Stanford, CA}{Stanford University}{September 2013 -- December 2017}
+			\begin{itemize}
+				\item Ph.D. in Applied Physics, January 2018. GPA: 3.67
+				\item M.S. in Applied Physics, January 2017. GPA: 3.67
+				\item Relevant Coursework: Convolutional Neural Networks for Visual Recognition, Natural Language Processing with Deep Learning, Machine Learning, Modern Applied Statistics: Data Mining, Modern Applied Statistics: Learning,  Statistical Methods in Finance
+				\item \textbf{Deep Visual Learning of Reddit Images} (2017).  Used three convolutional neural networks to categorize posted images to relevant subreddits (65\% acc), as well as auto-tag not-safe-for-work images (96\% acc). Used multitask learning to boost performance and saliency maps to visualize important characteristics. (Python/TensorFlow)
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Davis, CA}{University of California, Davis}{September 2008 -- June 2012}
+			\begin{itemize}
+				\item B.S. in Physics with a minor in Mathematics, June 2012. GPA: 3.91
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Papers}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Deep Visual Learning of Reddit Images (2017):} Chase, Tyler, et al. “Deep Visual Learning of Reddit Images.” cs231n.Stanford.edu, 2017, cs231n.stanford.edu/reports/2017/pdfs/129.pdf.			
+				\item \textbf{Additional Machine Learning and Physics Papers:} scholar.google.com/citations?hl=en\&user=yJnI170AAAAJ
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages/Tools}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python (expert); SQL (expert); LangGraph (proficient); Docker (proficient); R (prio experience); PyTorch (prior experience); TensorFlow (prior experience); MLFlow (prior experience); C++ (prior experience)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
